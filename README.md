@@ -19,9 +19,12 @@ Requires the companion [RuneLite plugin](https://github.com/claytonmark/logitech
 
 ## Installation
 
-### From .lplug4 Package
+### From GitHub Releases (Recommended)
 
-Double-click the `.lplug4` file to install via Logi Options+.
+1. Go to the [Releases](https://github.com/claytonmark/logitech_runelite_haptics-logi_options_action/releases) page
+2. Download `LogiHaptics.lplug4` from the latest release
+3. Double-click the downloaded `.lplug4` file — Logi Options+ will open and install the plugin automatically
+4. Restart Logi Options+ if prompted
 
 ### From Source
 
