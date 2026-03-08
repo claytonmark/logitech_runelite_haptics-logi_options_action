@@ -12,6 +12,7 @@
 
     <PluginApiDir Condition="$(OS) == 'Windows_NT'">C:\Program Files\Logi\LogiPluginService\</PluginApiDir>
     <PluginApiDir Condition="$(OS) != 'Windows_NT'">/Applications/Utilities/LogiPluginService.app/Contents/MonoBundle/</PluginApiDir>
+    <PluginApiDir Condition="!Exists('$(PluginApiDir)PluginApi.dll')">$(MSBuildThisFileDirectory)..\lib\</PluginApiDir>
 
     <PluginDir Condition="$(OS) == 'Windows_NT'">$(LocalAppData)\Logi\LogiPluginService\Plugins\</PluginDir>
     <PluginDir Condition="$(OS) != 'Windows_NT'">~/Library/Application\ Support/Logi/LogiPluginService/Plugins/</PluginDir>
@@ -35,7 +36,7 @@
     <Copy SourceFiles="@(PackageFiles)" DestinationFolder="$(OutputPath)..\%(RecursiveDir)" />
   </Target>
 
-  <Target Name="PostBuild" AfterTargets="CopyPackage">
+  <Target Name="PostBuild" AfterTargets="CopyPackage" Condition="'$(CI)' != 'true'">
     <Exec Condition="$(OS) == 'Windows_NT'" Command="echo $(BaseOutputPath)$(Configuration)\ &gt; &quot;$(PluginDir)$(ProjectName).link&quot;" ContinueOnError="true" />
     <Exec Condition="$(OS) != 'Windows_NT'" Command="echo $(BaseOutputPath)$(Configuration)/ &gt; $(PluginDir)$(ProjectName).link" ContinueOnError="true" />
 
@@ -43,7 +44,7 @@
     <Exec Condition="$(OS) != 'Windows_NT'" Command="open loupedeck:plugin/$(PluginShortName)/reload" ContinueOnError="true" />
   </Target>
 
-  <Target Name="PluginClean" AfterTargets="CoreClean">
+  <Target Name="PluginClean" AfterTargets="CoreClean" Condition="'$(CI)' != 'true'">
     <Delete Condition="$(OS) == 'Windows_NT'" Files="$(PluginDir)$(ProjectName).link" ContinueOnError="true" />
     <Exec Condition="$(OS) != 'Windows_NT'" Command="rm -f $(PluginDir)$(ProjectName).link" ContinueOnError="true" />
     <RemoveDir Directories="$(OutputPath)..\" ContinueOnError="true" />

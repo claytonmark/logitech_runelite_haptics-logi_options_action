@@ -1,0 +1,36 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Install LogiPluginTool
+        run: dotnet tool install --global LogiPluginTool
+
+      - name: Build
+        run: dotnet build -c Release
+        working-directory: logi-plugin/LogiHapticsPlugin
+
+      - name: Package
+        run: logiplugintool pack ./bin/Release/ ./LogiHaptics.lplug4
+        working-directory: logi-plugin
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: logi-plugin/LogiHaptics.lplug4
+          generate_release_notes: true
