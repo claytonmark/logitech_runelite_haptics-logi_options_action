@@ -1,0 +1,183 @@
+displayName: RuneLite Haptics
+description: Haptic feedback for mouse interactions in OSRS
+events:
+  - name: menuItemHover.subtle_collision
+    displayName: Menu Hover (Subtle Collision)
+    description: Detent click when hovering between menu entries [Subtle Collision]
+  - name: menuItemHover.damp_collision
+    displayName: Menu Hover (Damp Collision)
+    description: Detent click when hovering between menu entries [Damp Collision]
+  - name: menuItemHover.damp_state_change
+    displayName: Menu Hover (Damp State Change)
+    description: Detent click when hovering between menu entries [Damp State Change]
+  - name: menuItemHover.sharp_collision
+    displayName: Menu Hover (Sharp Collision)
+    description: Detent click when hovering between menu entries [Sharp Collision]
+  - name: menuItemHover.sharp_state_change
+    displayName: Menu Hover (Sharp State Change)
+    description: Detent click when hovering between menu entries [Sharp State Change]
+  - name: menuItemHover.knock
+    displayName: Menu Hover (Knock)
+    description: Detent click when hovering between menu entries [Knock]
+  - name: menuOpen.subtle_collision
+    displayName: Menu Open (Subtle Collision)
+    description: Right-click menu opened [Subtle Collision]
+  - name: menuOpen.damp_collision
+    displayName: Menu Open (Damp Collision)
+    description: Right-click menu opened [Damp Collision]
+  - name: menuOpen.damp_state_change
+    displayName: Menu Open (Damp State Change)
+    description: Right-click menu opened [Damp State Change]
+  - name: menuOpen.sharp_collision
+    displayName: Menu Open (Sharp Collision)
+    description: Right-click menu opened [Sharp Collision]
+  - name: menuOpen.sharp_state_change
+    displayName: Menu Open (Sharp State Change)
+    description: Right-click menu opened [Sharp State Change]
+  - name: menuOpen.knock
+    displayName: Menu Open (Knock)
+    description: Right-click menu opened [Knock]
+  - name: menuOptionSelect.subtle_collision
+    displayName: Menu Select (Subtle Collision)
+    description: Menu option selected [Subtle Collision]
+  - name: menuOptionSelect.damp_collision
+    displayName: Menu Select (Damp Collision)
+    description: Menu option selected [Damp Collision]
+  - name: menuOptionSelect.damp_state_change
+    displayName: Menu Select (Damp State Change)
+    description: Menu option selected [Damp State Change]
+  - name: menuOptionSelect.sharp_collision
+    displayName: Menu Select (Sharp Collision)
+    description: Menu option selected [Sharp Collision]
+  - name: menuOptionSelect.sharp_state_change
+    displayName: Menu Select (Sharp State Change)
+    description: Menu option selected [Sharp State Change]
+  - name: menuOptionSelect.knock
+    displayName: Menu Select (Knock)
+    description: Menu option selected [Knock]
+  - name: npcClick.subtle_collision
+    displayName: NPC Click (Subtle Collision)
+    description: Clicked on an NPC [Subtle Collision]
+  - name: npcClick.damp_collision
+    displayName: NPC Click (Damp Collision)
+    description: Clicked on an NPC [Damp Collision]
+  - name: npcClick.damp_state_change
+    displayName: NPC Click (Damp State Change)
+    description: Clicked on an NPC [Damp State Change]
+  - name: npcClick.sharp_collision
+    displayName: NPC Click (Sharp Collision)
+    description: Clicked on an NPC [Sharp Collision]
+  - name: npcClick.sharp_state_change
+    displayName: NPC Click (Sharp State Change)
+    description: Clicked on an NPC [Sharp State Change]
+  - name: npcClick.knock
+    displayName: NPC Click (Knock)
+    description: Clicked on an NPC [Knock]
+  - name: objectClick.subtle_collision
+    displayName: Object Click (Subtle Collision)
+    description: Clicked on a game object [Subtle Collision]
+  - name: objectClick.damp_collision
+    displayName: Object Click (Damp Collision)
+    description: Clicked on a game object [Damp Collision]
+  - name: objectClick.damp_state_change
+    displayName: Object Click (Damp State Change)
+    description: Clicked on a game object [Damp State Change]
+  - name: objectClick.sharp_collision
+    displayName: Object Click (Sharp Collision)
+    description: Clicked on a game object [Sharp Collision]
+  - name: objectClick.sharp_state_change
+    displayName: Object Click (Sharp State Change)
+    description: Clicked on a game object [Sharp State Change]
+  - name: objectClick.knock
+    displayName: Object Click (Knock)
+    description: Clicked on a game object [Knock]
+  - name: groundItemClick.subtle_collision
+    displayName: Ground Item Click (Subtle Collision)
+    description: Clicked on a ground item [Subtle Collision]
+  - name: groundItemClick.damp_collision
+    displayName: Ground Item Click (Damp Collision)
+    description: Clicked on a ground item [Damp Collision]
+  - name: groundItemClick.damp_state_change
+    displayName: Ground Item Click (Damp State Change)
+    description: Clicked on a ground item [Damp State Change]
+  - name: groundItemClick.sharp_collision
+    displayName: Ground Item Click (Sharp Collision)
+    description: Clicked on a ground item [Sharp Collision]
+  - name: groundItemClick.sharp_state_change
+    displayName: Ground Item Click (Sharp State Change)
+    description: Clicked on a ground item [Sharp State Change]
+  - name: groundItemClick.knock
+    displayName: Ground Item Click (Knock)
+    description: Clicked on a ground item [Knock]
+  - name: inventoryClick.subtle_collision
+    displayName: Inventory Click (Subtle Collision)
+    description: Clicked on an inventory item [Subtle Collision]
+  - name: inventoryClick.damp_collision
+    displayName: Inventory Click (Damp Collision)
+    description: Clicked on an inventory item [Damp Collision]
+  - name: inventoryClick.damp_state_change
+    displayName: Inventory Click (Damp State Change)
+    description: Clicked on an inventory item [Damp State Change]
+  - name: inventoryClick.sharp_collision
+    displayName: Inventory Click (Sharp Collision)
+    description: Clicked on an inventory item [Sharp Collision]
+  - name: inventoryClick.sharp_state_change
+    displayName: Inventory Click (Sharp State Change)
+    description: Clicked on an inventory item [Sharp State Change]
+  - name: inventoryClick.knock
+    displayName: Inventory Click (Knock)
+    description: Clicked on an inventory item [Knock]
+  - name: moveClick.subtle_collision
+    displayName: Move Click (Subtle Collision)
+    description: Clicked to walk or run [Subtle Collision]
+  - name: moveClick.damp_collision
+    displayName: Move Click (Damp Collision)
+    description: Clicked to walk or run [Damp Collision]
+  - name: moveClick.damp_state_change
+    displayName: Move Click (Damp State Change)
+    description: Clicked to walk or run [Damp State Change]
+  - name: moveClick.sharp_collision
+    displayName: Move Click (Sharp Collision)
+    description: Clicked to walk or run [Sharp Collision]
+  - name: moveClick.sharp_state_change
+    displayName: Move Click (Sharp State Change)
+    description: Clicked to walk or run [Sharp State Change]
+  - name: moveClick.knock
+    displayName: Move Click (Knock)
+    description: Clicked to walk or run [Knock]
+  - name: npcHover.subtle_collision
+    displayName: NPC Hover (Subtle Collision)
+    description: Cursor hovered over an NPC [Subtle Collision]
+  - name: npcHover.damp_collision
+    displayName: NPC Hover (Damp Collision)
+    description: Cursor hovered over an NPC [Damp Collision]
+  - name: npcHover.damp_state_change
+    displayName: NPC Hover (Damp State Change)
+    description: Cursor hovered over an NPC [Damp State Change]
+  - name: npcHover.sharp_collision
+    displayName: NPC Hover (Sharp Collision)
+    description: Cursor hovered over an NPC [Sharp Collision]
+  - name: npcHover.sharp_state_change
+    displayName: NPC Hover (Sharp State Change)
+    description: Cursor hovered over an NPC [Sharp State Change]
+  - name: npcHover.knock
+    displayName: NPC Hover (Knock)
+    description: Cursor hovered over an NPC [Knock]
+  - name: objectHover.subtle_collision
+    displayName: Object Hover (Subtle Collision)
+    description: Cursor hovered over a game object [Subtle Collision]
+  - name: objectHover.damp_collision
+    displayName: Object Hover (Damp Collision)
+    description: Cursor hovered over a game object [Damp Collision]
+  - name: objectHover.damp_state_change
+    displayName: Object Hover (Damp State Change)
+    description: Cursor hovered over a game object [Damp State Change]
+  - name: objectHover.sharp_collision
+    displayName: Object Hover (Sharp Collision)
+    description: Cursor hovered over a game object [Sharp Collision]
+  - name: objectHover.sharp_state_change
+    displayName: Object Hover (Sharp State Change)
+    description: Cursor hovered over a game object [Sharp State Change]
+  - name: objectHover.knock
+    displayName: Object Hover (Knock)
+    description: Cursor hovered over a game object [Knock]

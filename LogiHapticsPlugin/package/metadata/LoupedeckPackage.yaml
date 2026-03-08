@@ -1,0 +1,15 @@
+type: plugin4
+name: LogiHaptics
+displayName: RuneLite Haptics
+description: "Haptic mouse feedback for OSRS interactions via RuneLite"
+pluginFileName: LogiHapticsPlugin.dll
+version: 1.0
+author: RuneLite Haptics
+minimumLoupedeckVersion: 6.0
+pluginFolderWin: bin
+pluginFolderMac: bin
+pluginCapabilities:
+  - HasHapticMapping
+supportedDevices:
+  - LoupedeckCtFamily
+  - LoupedeckExtendedFamily

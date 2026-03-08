@@ -1,0 +1,121 @@
+haptics:
+  menuItemHover.subtle_collision:
+    DEFAULT: subtle_collision
+  menuItemHover.damp_collision:
+    DEFAULT: damp_collision
+  menuItemHover.damp_state_change:
+    DEFAULT: damp_state_change
+  menuItemHover.sharp_collision:
+    DEFAULT: sharp_collision
+  menuItemHover.sharp_state_change:
+    DEFAULT: sharp_state_change
+  menuItemHover.knock:
+    DEFAULT: knock
+  menuOpen.subtle_collision:
+    DEFAULT: subtle_collision
+  menuOpen.damp_collision:
+    DEFAULT: damp_collision
+  menuOpen.damp_state_change:
+    DEFAULT: damp_state_change
+  menuOpen.sharp_collision:
+    DEFAULT: sharp_collision
+  menuOpen.sharp_state_change:
+    DEFAULT: sharp_state_change
+  menuOpen.knock:
+    DEFAULT: knock
+  menuOptionSelect.subtle_collision:
+    DEFAULT: subtle_collision
+  menuOptionSelect.damp_collision:
+    DEFAULT: damp_collision
+  menuOptionSelect.damp_state_change:
+    DEFAULT: damp_state_change
+  menuOptionSelect.sharp_collision:
+    DEFAULT: sharp_collision
+  menuOptionSelect.sharp_state_change:
+    DEFAULT: sharp_state_change
+  menuOptionSelect.knock:
+    DEFAULT: knock
+  npcClick.subtle_collision:
+    DEFAULT: subtle_collision
+  npcClick.damp_collision:
+    DEFAULT: damp_collision
+  npcClick.damp_state_change:
+    DEFAULT: damp_state_change
+  npcClick.sharp_collision:
+    DEFAULT: sharp_collision
+  npcClick.sharp_state_change:
+    DEFAULT: sharp_state_change
+  npcClick.knock:
+    DEFAULT: knock
+  objectClick.subtle_collision:
+    DEFAULT: subtle_collision
+  objectClick.damp_collision:
+    DEFAULT: damp_collision
+  objectClick.damp_state_change:
+    DEFAULT: damp_state_change
+  objectClick.sharp_collision:
+    DEFAULT: sharp_collision
+  objectClick.sharp_state_change:
+    DEFAULT: sharp_state_change
+  objectClick.knock:
+    DEFAULT: knock
+  groundItemClick.subtle_collision:
+    DEFAULT: subtle_collision
+  groundItemClick.damp_collision:
+    DEFAULT: damp_collision
+  groundItemClick.damp_state_change:
+    DEFAULT: damp_state_change
+  groundItemClick.sharp_collision:
+    DEFAULT: sharp_collision
+  groundItemClick.sharp_state_change:
+    DEFAULT: sharp_state_change
+  groundItemClick.knock:
+    DEFAULT: knock
+  inventoryClick.subtle_collision:
+    DEFAULT: subtle_collision
+  inventoryClick.damp_collision:
+    DEFAULT: damp_collision
+  inventoryClick.damp_state_change:
+    DEFAULT: damp_state_change
+  inventoryClick.sharp_collision:
+    DEFAULT: sharp_collision
+  inventoryClick.sharp_state_change:
+    DEFAULT: sharp_state_change
+  inventoryClick.knock:
+    DEFAULT: knock
+  moveClick.subtle_collision:
+    DEFAULT: subtle_collision
+  moveClick.damp_collision:
+    DEFAULT: damp_collision
+  moveClick.damp_state_change:
+    DEFAULT: damp_state_change
+  moveClick.sharp_collision:
+    DEFAULT: sharp_collision
+  moveClick.sharp_state_change:
+    DEFAULT: sharp_state_change
+  moveClick.knock:
+    DEFAULT: knock
+  npcHover.subtle_collision:
+    DEFAULT: subtle_collision
+  npcHover.damp_collision:
+    DEFAULT: damp_collision
+  npcHover.damp_state_change:
+    DEFAULT: damp_state_change
+  npcHover.sharp_collision:
+    DEFAULT: sharp_collision
+  npcHover.sharp_state_change:
+    DEFAULT: sharp_state_change
+  npcHover.knock:
+    DEFAULT: knock
+  objectHover.subtle_collision:
+    DEFAULT: subtle_collision
+  objectHover.damp_collision:
+    DEFAULT: damp_collision
+  objectHover.damp_state_change:
+    DEFAULT: damp_state_change
+  objectHover.sharp_collision:
+    DEFAULT: sharp_collision
+  objectHover.sharp_state_change:
+    DEFAULT: sharp_state_change
+  objectHover.knock:
+    DEFAULT: knock
